@@ -1,0 +1,34 @@
+{
+    "collectionName": "components_shared_ihtbs",
+    "info": {
+        "displayName": "IHTB",
+        "icon": "align-left"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subTitle": {
+            "type": "string"
+        },
+        "text": {
+            "type": "richtext",
+            "required": false
+        },
+        "media_url": {
+            "allowedTypes": [
+                "images",
+                "videos"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "button": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.button"
+        }
+    }
+}

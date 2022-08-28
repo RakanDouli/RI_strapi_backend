@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "paperclip"
+  },
+  "options": {},
+  "attributes": {
+    "button_style": {
+      "type": "enumeration",
+      "enum": [
+        "style_1",
+        "style_2"
+      ],
+      "default": "style_1",
+      "enumName": "button_style",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

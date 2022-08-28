@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_nav_nav_sub_menus",
+  "info": {
+    "displayName": "nav_sub_menu",
+    "icon": "angle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

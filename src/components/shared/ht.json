@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_hts",
+  "info": {
+    "displayName": "HT",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

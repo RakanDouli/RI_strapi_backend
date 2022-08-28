@@ -1,0 +1,33 @@
+{
+    "collectionName": "components_nav_navigations",
+    "info": {
+        "displayName": "navigation"
+    },
+    "options": {},
+    "attributes": {
+        "theme_mood": {
+            "type": "enumeration",
+            "enum": [
+                "light",
+                "dark"
+            ],
+            "default": "light",
+            "enumName": "theme_mood"
+        },
+        "logo": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        },
+        "nav_item": {
+            "type": "component",
+            "repeatable": true,
+            "component": "nav.nav-item",
+            "required": true
+        }
+
+    }
+}

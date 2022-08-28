@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_layout_banners",
+    "info": {
+        "displayName": "banner",
+        "icon": "archway",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+
+        "IHTB": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.ihtb"
+
+        }
+
+    }
+}
