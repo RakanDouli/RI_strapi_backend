@@ -27,5 +27,5 @@ jobs:
         server: www.dabjan.com
         username: ${{ secrets.username }}
         password:  ${{ secrets.password }}
-        server-dir: /puplic_html/strapi.dabjan.com/
+        server-dir: strapi.dabjan.com/
        
